@@ -1,3 +1,4 @@
+import React from 'react'
 class Merchant extends React.Component{
     render(){
         return(
@@ -11,3 +12,4 @@ class Merchant extends React.Component{
         );
     }
 }
+export default Merchant;

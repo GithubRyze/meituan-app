@@ -1,7 +1,9 @@
+
+import React from 'react'
 class UserBar extends React.Component{
     render(){
         return(
-            <div>
+            <div className="userbar fr"> 
                 <span>
                     <a rel="nofollow">注册</a>
                     <span>|</span>
@@ -15,3 +17,4 @@ class UserBar extends React.Component{
         );
     }
 }
+export default UserBar;
