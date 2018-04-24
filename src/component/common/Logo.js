@@ -1,9 +1,10 @@
 import React from 'react'
+import Logo_png from '../../image/logo-n.png'
 class Logo extends React.Component{
     render(){
         return(
-            <div className="logo fl">
-                <img src = "/public/static/images/logo-n.jpg"  alt = "美团外卖"/>
+            <div className="logo">
+                <img src = {Logo_png}  alt = "美团外卖"/>
             </div>
         );
     }
