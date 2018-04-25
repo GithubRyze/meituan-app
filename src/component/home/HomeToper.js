@@ -8,6 +8,7 @@ class HomeToper extends React.Component{
             <div className="top_bg">
                 <div className="logo_bg"></div>
                     <Logo />
+                    <AddressSeacher/>
                     <HomeUserBar />
             </div>
         );
