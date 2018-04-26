@@ -1,0 +1,17 @@
+.header{
+    border-bottom-color: gold;
+    border-bottom: 2px, solid;
+    min-width: 980px;
+    display: block;
+}
+.header-logo{
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.set-logo{
+    width: 148px;
+    background-position: -388px -748px;
+    background-image: url();
+    height: 44px;
+    margin-top: -2px;
+}

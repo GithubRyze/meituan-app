@@ -7,7 +7,7 @@ class AddressSeacher extends React.Component{
                     <div className="address m-shadow clearfix">
                         <a className="city fl"> 
                             <span>深圳</span>
-                            <b className="trangle-down  "></b>
+                            <b className="trangle-down"></b>
                             <span className="dvd-line"></span>
                         </a>
                     </div>
