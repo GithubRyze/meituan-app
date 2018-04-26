@@ -172,19 +172,27 @@ a{
 .footer-weixin{
     position: relative;
 }
+div{
+    display: block;
+}
 .top-map{
     position: absolute;
     min-width: 980px;
     top: 37%;
     bottom: -45px;
-    left: 20%;
-    right: 20%;
-    width: 65%;
-    
+    left: 12%;
+    right: 12%;
+    width: 76%;
 }
-.address{
+.top{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 72px;
+}
+.address{ 
     width: 730px;
-    margin: 0 auto;
+    margin:0 auto;
 }
 .m-shadow{
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.3);
@@ -192,12 +200,9 @@ a{
 .clearfix{
     zoom: 1;
 }
-.current-city{
-    position: relative;
-}
-
 .city{
-    display: inline-block;
+    position: relative;
+    display: block;
     line-height: 60px;
     background-color: #fff;
     width: 90px;
@@ -211,9 +216,10 @@ a{
     white-space: nowrap;
 }
 .trangle-down{
+    right: 15px;
+    font-weight: bold;
     position: absolute;
     content: '';
-    left: 70px;
     top:27px;
     border: 5px solid transparent;
     border-width: 4px 5px;
@@ -229,10 +235,25 @@ a{
     background: #e5e5e5;
 }
 .seacher-input{
+    float: left;
     height: 20px;
     width: 480px;
     line-height: 20px;
     padding: 20px 10px 20px 20px;
     font-size: 16px;
-
+    outline: 0px;
+    border: 0px;
+}
+.div-search-input-a{
+    width: 130px;
+    float: left;
+    display: block;
+    background-color: #ffd161;
+    text-align: center;
+    font-size: 16px; 
+    color: #333;
+    line-height: 60px;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
 }
