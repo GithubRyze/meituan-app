@@ -1,17 +1,31 @@
 .header{
-    border-bottom-color: gold;
-    border-bottom: 2px, solid;
+    background-color: grey;
+    border-bottom: 2px solid #FFD705;
     min-width: 980px;
-    display: block;
 }
 .header-logo{
+    width: 980px;
     margin: 0 auto;
     padding: 10px 0;
+    zoom: 1;
 }
-.set-logo{
+.site-logo{
+    float: left;
     width: 148px;
-    background-position: -388px -748px;
-    background-image: url();
     height: 44px;
+    background-size: 100% 100%;
+    background-image: url('../image/logo-n.png');
     margin-top: -2px;
+}
+.cf:after {
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    content: '';
+}
+body {
+    display: block;
+    margin: 0px;
 }
